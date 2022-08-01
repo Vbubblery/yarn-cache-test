@@ -1,0 +1,10 @@
+{
+  "start_url": "/home",
+  "protocol_handlers": [
+    {
+      "scheme": "web+flowlity",
+      "url": "/%s",
+      "title": "Flowlity"
+    }
+  ]
+}

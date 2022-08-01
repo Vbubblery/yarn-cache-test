@@ -1,0 +1,30 @@
+@mixin line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-1 {
+  @include line-clamp;
+  -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+  @include line-clamp;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  @include line-clamp;
+  -webkit-line-clamp: 3;
+}
+
+.line-clamp-4 {
+  @include line-clamp;
+  -webkit-line-clamp: 4;
+}
+
+.line-clamp-5 {
+  @include line-clamp;
+  -webkit-line-clamp: 5;
+}

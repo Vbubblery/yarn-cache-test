@@ -1,0 +1,75 @@
+.mx-input-wrapper input {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-bottom: 1px solid #b4b4b4 !important;
+  border-radius: 0%;
+}
+.mx-icon-calendar {
+  display: none;
+}
+.mx-input {
+  padding: 0 !important;
+  text-align: center;
+}
+.mx-calendar-content {
+  height: 250px;
+}
+.mx-table {
+  border-spacing: 0px 2px;
+}
+// calendar header arrow
+.mx-btn-icon-left,
+.mx-btn-icon-right,
+.mx-btn-icon-double-left,
+.mx-btn-icon-double-right {
+  margin: 1px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 100%;
+  color: #767676;
+}
+.mx-btn-icon-left:focus,
+.mx-btn-icon-right:focus,
+.mx-btn-icon-double-left:focus,
+.mx-btn-icon-double-right:focus {
+  outline: none;
+  border: 1px solid #2388ff;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: #ecf5ff;
+}
+.mx-btn-icon-left:hover,
+.mx-btn-icon-right:hover,
+.mx-btn-icon-double-left:hover,
+.mx-btn-icon-double-right:hover {
+  background: #f7faff;
+  border: 1px solid #a3cdff;
+}
+.mx-icon-double-left {
+  padding-left: 20%;
+}
+.mx-icon-left {
+  padding-left: 35%;
+}
+.mx-icon-right {
+  padding-left: 25%;
+}
+
+// end calendar header arrow
+// // common picker
+.mx-calendar {
+  width: 280px;
+}
+.mx-datepicker {
+  width: 100% !important;
+}
+.mx-calendar-header {
+  height: 40px;
+}
+.mx-week-number::before {
+  content: "W";
+  font-size: 10px;
+}

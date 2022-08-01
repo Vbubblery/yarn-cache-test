@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Orders page renders the orders page 1`] = `
+<div class="overflow-y-auto">
+  <div data-testid="orders-filter-header">
+    <div class="flex px-6 py-4 h-full mx-2 my-5">
+      <div class="font-montserrat leading-6 text-2xl font-normal mx-4 my-1 mr-12">
+        orderTitle
+      </div>
+      <div class="flex"><button class="mx-2 
+    rounded-[30px]
+    font-montserrat
+    font-medium
+    normal
+    h-full
+    py-1
+    justify-between
+    bg-blue-200 text-blue-700
+   
+    px-6 inline-block align-middle
+    
+    text-gray-600
+    group
+    hover:bg-blue-100  hover:text-blue-700 focus:bg-blue-100 focus:text-blue-700 active:bg-blue-200 active:text-blue-700
+    space-x-2
+    items-center
+    " data-testid="order_status_1_tab">
+          <div class="py-1  text-lg inline-block align-middle">
+            planned
+          </div>
+          <!---->
+        </button><button class="mx-2 
+    rounded-[30px]
+    font-montserrat
+    font-medium
+    normal
+    h-full
+    py-1
+    justify-between
+    
+   
+    px-6 inline-block align-middle
+    
+    text-gray-600
+    group
+    hover:bg-blue-100  hover:text-blue-700 focus:bg-blue-100 focus:text-blue-700 active:bg-blue-200 active:text-blue-700
+    space-x-2
+    items-center
+    " data-testid="order_status_2_tab">
+          <div class="py-1  text-lg inline-block align-middle">
+            validated
+          </div>
+          <!---->
+        </button><button class="mx-2 
+    rounded-[30px]
+    font-montserrat
+    font-medium
+    normal
+    h-full
+    py-1
+    justify-between
+    
+   
+    px-6 inline-block align-middle
+    
+    text-gray-600
+    group
+    hover:bg-blue-100  hover:text-blue-700 focus:bg-blue-100 focus:text-blue-700 active:bg-blue-200 active:text-blue-700
+    space-x-2
+    items-center
+    " data-testid="order_status_3_tab">
+          <div class="py-1  text-lg inline-block align-middle">
+            purchaseOrders
+          </div>
+          <!---->
+        </button><button class="mx-2 
+    rounded-[30px]
+    font-montserrat
+    font-medium
+    normal
+    h-full
+    py-1
+    justify-between
+    
+   
+    px-6 inline-block align-middle
+    
+    text-gray-600
+    group
+    hover:bg-blue-100  hover:text-blue-700 focus:bg-blue-100 focus:text-blue-700 active:bg-blue-200 active:text-blue-700
+    space-x-2
+    items-center
+    " data-testid="order_status_4_tab">
+          <div class="py-1  text-lg inline-block align-middle">
+            delivered
+          </div>
+          <!---->
+        </button></div>
+    </div>
+    <div class="h-12 border-b grid grid-cols-12 items-center shadow-md">
+      <div class="flex items-center h-full col-span-4">
+        <div class="h-full flex items-center justify-center" style="width: 80px;"><svg viewBox="0 0 24 24" width="24" height="24" class="icon">
+            <use xlink:href="/assets/svg/sprite.svg#svg-search-line" href="/assets/svg/sprite.svg#svg-search-line"></use>
+          </svg></div>
+        <div class="flex justify-start w-full p-1 rounded border-r" style="height: 90%;">
+          <div class="flex items-center w-full h-full bg-white border focus-within:border-blue-400 rounded"><input placeholder="search..." data-testid="search_orders_page" class="leading-8 rounded-lg px-2 w-full"></div>
+        </div>
+      </div>
+      <div class="flex items-center h-full w-full col-span-8">
+        <div class="flex items-center h-full col-span-2">
+          <section class="dropDownMenuWrapper h-full  dropdown cursor-pointer">
+            <div class="dropDownMenuButton px-4 ant-dropdown-trigger" data-testid="base_dropdown">
+              <div class="w-[90%]">
+                <p class="text-gray-500 text-xs select-none">suppliers</p>
+                <p class="text-blue-600 truncate">
+
+                </p>
+              </div> <svg viewBox="0 0 24 24" width="24" height="24" class="icon">
+                <use xlink:href="/assets/svg/sprite.svg#svg-arrow-down-s-line" href="/assets/svg/sprite.svg#svg-arrow-down-s-line"></use>
+              </svg>
+            </div>
+          </section>
+        </div>
+        <div class="flex items-center h-full col-span-2 px-2">
+          <section class="dropDownMenuWrapper h-full max-w-6xl dropdown cursor-pointer border-l">
+            <div class="dropDownMenuButton px-4 ant-dropdown-trigger" data-testid="base_dropdown">
+              <div class="w-[90%]">
+                <p class="text-gray-500 text-xs select-none">dateRange</p>
+                <p class="text-blue-600 truncate">
+
+                </p>
+              </div> <svg viewBox="0 0 24 24" width="24" height="24" class="icon">
+                <use xlink:href="/assets/svg/sprite.svg#svg-arrow-down-s-line" href="/assets/svg/sprite.svg#svg-arrow-down-s-line"></use>
+              </svg>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white relative py-4 px-1">
+    <div data-testid="orders-list">
+      <div class="h-14 p-2 mb-1 flex border-b">
+        <div class="w-6 max-w-6"></div>
+        <div class="text-center items-center justify-start flex pl-2"><input data-testid="select_all_orders_checkbox" type="checkbox" class="ml-2 h-4 w-4"> <a class="ant-dropdown-link ant-dropdown-trigger" data-testid="select_all_orders_dropdown"><svg viewBox="0 0 24 24" width="24" height="24" class="text-gray-500">
+              <use xlink:href="/assets/svg/sprite.svg#svg-arrow-down-s-fill" href="/assets/svg/sprite.svg#svg-arrow-down-s-fill"></use>
+            </svg></a></div>
+        <div class="grid grid-cols-9 gap-2 content-center text-xs w-full text-gray-600">
+          <div class="col-span-1 py-2 px-4">
+            temporary_id
+          </div>
+          <div class="col-span-1 py-2 flex items-center">
+            lastOrderDate
+            <a data-testid="change_sort_button"><svg viewBox="0 0 15 15" width="15" height="15" class="text-gray-600">
+                <use xlink:href="/assets/svg/sprite.svg#svg-arrow-up-line" href="/assets/svg/sprite.svg#svg-arrow-up-line"></use>
+              </svg></a>
+          </div>
+          <div class="col-span-1 py-2">
+            date
+          </div>
+          <div class="py-2 col-span-3">
+            orders.supplier.display
+          </div>
+          <div class="col-span-1 py-2 text-right px-4">
+            orders.includesItems
+          </div>
+          <div class="col-span-1 py-2 text-right px-6">
+            orders.price
+          </div>
+          <div class="col-span-1 py-2 text-right px-6">
+            orders.volume
+          </div>
+          <!---->
+        </div>
+      </div>
+      <!---->
+      <div class="paginated-loading-list">
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;

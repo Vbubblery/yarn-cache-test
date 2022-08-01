@@ -1,0 +1,112 @@
+@import "vars";
+@import "floating-vue";
+@import "animations";
+@import "shortcuts";
+
+body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+h3 {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+svg {
+  fill: currentColor;
+}
+
+// should be removed after Ant Design
+svg:not(:root) {
+  overflow: unset;
+}
+
+.card-columns {
+  display: inline-block;
+  max-width: 100%;
+  column-count: 4;
+}
+
+.high-zIndex {
+  z-index: 10002;
+}
+
+.sweetalert-header {
+  align-items: start !important;
+  padding: 0 1.3em !important;
+}
+
+.sweetalert-title {
+  padding-top: 1rem !important;
+  font-size: 17px !important;
+  line-height: 24px !important;
+  text-align: left !important;
+  font-family: $font-montserrat !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #282828 !important;
+}
+
+.sweetalert-content {
+  font-size: 14px !important;
+  line-height: 18px !important;
+  text-align: left !important;
+  font-family: $font-montserrat !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+}
+
+.sweetalert-actions {
+  display: flex !important;
+}
+
+.sweetalert-confirm-button {
+  background-color: rgb(10, 110, 227) !important;
+  font-size: 12px !important;
+  line-height: 32px !important;
+  padding: 2px 16px !important;
+  border-radius: 4px !important;
+  color: white !important;
+}
+
+.sweetalert-cancel-button {
+  font-size: 12px !important;
+  line-height: 32px !important;
+  margin: 0 20px !important;
+  background-color: transparent !important;
+  padding: 2px 16px !important;
+  border-radius: 4px !important;
+  color: #767676 !important;
+}
+
+// TODO: it should be removed but there is libraries conflict in buttons background scope:
+// Ant design vs Tailwind reset stylesheet
+.ant-btn-primary {
+  background: $color-blue-600;
+}
+
+.ant-btn-danger {
+  background: $color-red-700;
+}

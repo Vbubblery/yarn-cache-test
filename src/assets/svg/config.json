@@ -1,0 +1,15 @@
+{
+  "shape": {
+    "id": {
+      "generator": "svg-"
+    }
+  },
+  "mode": {
+    "symbol": {
+      "dest": "./src/assets/svg/",
+      "sprite": "sprite.svg",
+      "inline": true,
+      "example": true
+    }
+  }
+}

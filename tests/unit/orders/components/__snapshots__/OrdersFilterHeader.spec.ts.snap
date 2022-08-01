@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Orders Filter Header renders the orders' filter header 1`] = `
+<div>
+  <div class="flex px-6 py-4 h-full mx-2 my-5">
+    <div class="font-montserrat leading-6 text-2xl font-normal mx-4 my-1 mr-12">
+      orderTitle
+    </div>
+    <div class="flex"><button class="mx-2 
+    rounded-[30px]
+    font-montserrat
+    font-medium
+    normal
+    h-full
+    py-1
+    justify-between
+    
+   
+    px-6 inline-block align-middle
+    
+    text-gray-600
+    group
+    hover:bg-blue-100  hover:text-blue-700 focus:bg-blue-100 focus:text-blue-700 active:bg-blue-200 active:text-blue-700
+    space-x-2
+    items-center
+    " data-testid="order_status_1_tab">
+        <div class="py-1  text-lg inline-block align-middle">
+          planned
+        </div>
+        <!---->
+      </button><button class="mx-2 
+    rounded-[30px]
+    font-montserrat
+    font-medium
+    normal
+    h-full
+    py-1
+    justify-between
+    
+   
+    px-6 inline-block align-middle
+    
+    text-gray-600
+    group
+    hover:bg-blue-100  hover:text-blue-700 focus:bg-blue-100 focus:text-blue-700 active:bg-blue-200 active:text-blue-700
+    space-x-2
+    items-center
+    " data-testid="order_status_2_tab">
+        <div class="py-1  text-lg inline-block align-middle">
+          validated
+        </div>
+        <!---->
+      </button><button class="mx-2 
+    rounded-[30px]
+    font-montserrat
+    font-medium
+    normal
+    h-full
+    py-1
+    justify-between
+    
+   
+    px-6 inline-block align-middle
+    
+    text-gray-600
+    group
+    hover:bg-blue-100  hover:text-blue-700 focus:bg-blue-100 focus:text-blue-700 active:bg-blue-200 active:text-blue-700
+    space-x-2
+    items-center
+    " data-testid="order_status_3_tab">
+        <div class="py-1  text-lg inline-block align-middle">
+          purchaseOrders
+        </div>
+        <!---->
+      </button><button class="mx-2 
+    rounded-[30px]
+    font-montserrat
+    font-medium
+    normal
+    h-full
+    py-1
+    justify-between
+    
+   
+    px-6 inline-block align-middle
+    
+    text-gray-600
+    group
+    hover:bg-blue-100  hover:text-blue-700 focus:bg-blue-100 focus:text-blue-700 active:bg-blue-200 active:text-blue-700
+    space-x-2
+    items-center
+    " data-testid="order_status_4_tab">
+        <div class="py-1  text-lg inline-block align-middle">
+          delivered
+        </div>
+        <!---->
+      </button></div>
+  </div>
+  <div class="h-12 border-b grid grid-cols-12 items-center shadow-md">
+    <div class="flex items-center h-full col-span-4">
+      <div class="h-full flex items-center justify-center" style="width: 80px;"><svg viewBox="0 0 24 24" width="24" height="24" class="icon">
+          <use xlink:href="/assets/svg/sprite.svg#svg-search-line" href="/assets/svg/sprite.svg#svg-search-line"></use>
+        </svg></div>
+      <div class="flex justify-start w-full p-1 rounded border-r" style="height: 90%;">
+        <div class="flex items-center w-full h-full bg-white border focus-within:border-blue-400 rounded"><input placeholder="search..." data-testid="search_orders_page" class="leading-8 rounded-lg px-2 w-full"></div>
+      </div>
+    </div>
+    <div class="flex items-center h-full w-full col-span-8">
+      <div class="flex items-center h-full col-span-2">
+        <section class="dropDownMenuWrapper h-full  dropdown cursor-pointer">
+          <div class="dropDownMenuButton px-4 ant-dropdown-trigger" data-testid="base_dropdown">
+            <div class="w-[90%]">
+              <p class="text-gray-500 text-xs select-none">suppliers</p>
+              <p class="text-blue-600 truncate">
+
+              </p>
+            </div> <svg viewBox="0 0 24 24" width="24" height="24" class="icon">
+              <use xlink:href="/assets/svg/sprite.svg#svg-arrow-down-s-line" href="/assets/svg/sprite.svg#svg-arrow-down-s-line"></use>
+            </svg>
+          </div>
+        </section>
+      </div>
+      <div class="flex items-center h-full col-span-2 px-2">
+        <section class="dropDownMenuWrapper h-full max-w-6xl dropdown cursor-pointer border-l">
+          <div class="dropDownMenuButton px-4 ant-dropdown-trigger" data-testid="base_dropdown">
+            <div class="w-[90%]">
+              <p class="text-gray-500 text-xs select-none">dateRange</p>
+              <p class="text-blue-600 truncate">
+
+              </p>
+            </div> <svg viewBox="0 0 24 24" width="24" height="24" class="icon">
+              <use xlink:href="/assets/svg/sprite.svg#svg-arrow-down-s-line" href="/assets/svg/sprite.svg#svg-arrow-down-s-line"></use>
+            </svg>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+`;

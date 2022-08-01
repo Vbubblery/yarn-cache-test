@@ -1,0 +1,507 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderModal Renders the component 1`] = `
+<body
+  style="overflow: hidden;"
+>
+  <div />
+  <div>
+    <div
+      class="ant-modal-root"
+    >
+      <transition-stub
+        appear="true"
+      >
+        <div
+          class="ant-modal-mask"
+        />
+      </transition-stub>
+      <div
+        class="ant-modal-wrap ant-modal-centered"
+        role="dialog"
+        tabindex="-1"
+      >
+        <transition-stub
+          appear="true"
+        >
+          <div
+            class="ant-modal pb-0 h-full"
+            role="document"
+            style="width: 100%; height: 100%;"
+          >
+            <div
+              aria-hidden="true"
+              style="width: 0px; height: 0px; overflow: hidden;"
+              tabindex="0"
+            />
+            <div
+              class="ant-modal-content"
+            >
+              <div
+                class="ant-modal-body"
+                style="padding: 0px;"
+              >
+                <!---->
+                 
+                <div
+                  class="flex flex-col h-screen bg-white font-montserrat"
+                  data-testid="order_modal_container"
+                >
+                  <div
+                    class="flex justify-between items-center px-10 py-5 col-span-10 row-span-1 border-b-2"
+                  >
+                    <div
+                      class="flex items-center"
+                    >
+                      <button
+                        class="mr-4 text-gray-400 btn btn--secondary relative h-8 flex justify-center items-center rounded-md cursor-pointer w-8 h-8"
+                        type="button"
+                      >
+                        <svg
+                          class="btn__icon"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          width="20"
+                        >
+                          <use
+                            href="/assets/svg/sprite.svg#svg-arrow-left-s-line"
+                            xlink:href="/assets/svg/sprite.svg#svg-arrow-left-s-line"
+                          />
+                        </svg>
+                         
+                        <!---->
+                      </button>
+                       
+                      <!---->
+                       
+                      <div
+                        class="flex flex-col justify-center font-roboto"
+                      >
+                        <div
+                          class="mb-0.5 text-[16px] leading-[19px] text-black"
+                        >
+                          <span>
+                            
+          orders.orderModalTitle
+        
+                          </span>
+                           
+                          <span
+                            class="uppercase text-green-700"
+                          >
+                            
+          
+        
+                          </span>
+                        </div>
+                         
+                        <div
+                          class="text-[14px] leading-[16px] text-gray-600"
+                        >
+                          
+        orders.orderId: 
+      
+                        </div>
+                      </div>
+                    </div>
+                     
+                    <div
+                      class="flex items-center"
+                    >
+                      <!---->
+                       
+                      <!---->
+                       
+                      <!---->
+                       
+                      <!---->
+                    </div>
+                  </div>
+                   
+                  <div
+                    class="flex justify-between flex-1 overflow-hidden"
+                  >
+                    <div
+                      class="flex-1 flex flex-col overflow-hidden"
+                    >
+                      <div
+                        class="grid pt-6 grid-cols-24 text-sm text-fl-dark-grey"
+                      >
+                        <div
+                          class="col-start-2 p-2 pl-0 col-span-8"
+                        >
+                          
+      orders.reference
+    
+                        </div>
+                         
+                        <div
+                          class="col-span-3 p-2 text-right"
+                        >
+                          
+      orders.quantity
+    
+                        </div>
+                         
+                        <div
+                          class="col-span-3 p-2 text-right"
+                        >
+                          
+      orders.daysOfCoverage
+    
+                        </div>
+                         
+                        <div
+                          class="col-span-2 p-2 text-right"
+                        >
+                          
+      orders.lotSize
+    
+                        </div>
+                         
+                        <div
+                          class="col-span-2 p-2 text-right"
+                        >
+                          
+      orders.moq
+    
+                        </div>
+                         
+                        <div
+                          class="col-span-3 p-2 pr-8 text-right"
+                        >
+                          
+      orders.value
+    
+                        </div>
+                      </div>
+                       
+                      <div
+                        class="flex-1 overflow-auto pt-[1px] pb-1"
+                      />
+                    </div>
+                     
+                    <div
+                      class="min-w-[436px] max-w-[436px] flex flex-col justify-between h-full px-10 py-8 overflow-auto bg-gray-100 border-gray-300 border-l"
+                    >
+                      <div>
+                        <p
+                          class="text-xl"
+                        >
+                          <span
+                            class="text-gray-900"
+                          >
+                            
+        orders.orderTitleStatusundefined
+      
+                          </span>
+                           
+                          <span>
+                            
+        - orders.orderTitleDetail
+      
+                          </span>
+                        </p>
+                         
+                        <div
+                          class="mt-1 min-h-[42px]"
+                        >
+                          <p
+                            class="flex items-center"
+                          >
+                            <svg
+                              class="mr-1 text-green-600"
+                              height="20"
+                              viewBox="0 0 20 20"
+                              width="20"
+                            >
+                              <use
+                                href="/assets/svg/sprite.svg#svg-checkbox-circle-line"
+                                xlink:href="/assets/svg/sprite.svg#svg-checkbox-circle-line"
+                              />
+                            </svg>
+                             
+                            <span
+                              class="text-green-700"
+                              data-testid="order_modal_met_constraints"
+                            >
+                              
+          orders.constraintsMetMessage
+        
+                            </span>
+                          </p>
+                        </div>
+                         
+                        <div
+                          class="my-12 space-y-4"
+                        >
+                          <div
+                            class="grid grid-cols-2"
+                          >
+                            <div
+                              class="col-span-1 text-sm flex items-center"
+                            >
+                              
+          orders.deliveryDate
+        
+                            </div>
+                             
+                            <div
+                              class="col-span-1 text-black"
+                            >
+                              
+          Invalid Date
+        
+                            </div>
+                          </div>
+                           
+                          <div
+                            class="grid grid-cols-2"
+                          >
+                            <div
+                              class="col-span-1 text-sm"
+                            >
+                              
+          orders.latestOrderDate
+        
+                            </div>
+                             
+                            <div
+                              class="col-span-1 text-black"
+                            >
+                              
+          
+        
+                            </div>
+                          </div>
+                           
+                          <div
+                            class="grid grid-cols-2"
+                          >
+                            <div
+                              class="col-span-1 text-sm"
+                            >
+                              orders.totalQuantity
+                            </div>
+                             
+                            <div
+                              class="col-span-1"
+                            >
+                              <span
+                                class="text-black"
+                              >
+                                
+            0
+          
+                              </span>
+                               
+                              <span
+                                class="text-xs"
+                              >
+                                
+            
+          
+                              </span>
+                            </div>
+                          </div>
+                           
+                          <div
+                            class="grid grid-cols-2"
+                          >
+                            <div
+                              class="col-span-1 text-sm"
+                            >
+                              orders.addedItems
+                            </div>
+                             
+                            <div
+                              class="col-span-1"
+                            >
+                              <span
+                                class="text-black"
+                              >
+                                
+            0
+          
+                              </span>
+                               
+                              <span
+                                class="text-xs"
+                              >
+                                
+            orders.items
+          
+                              </span>
+                            </div>
+                          </div>
+                           
+                          <div
+                            class="grid grid-cols-2 mb-8"
+                          >
+                            <div
+                              class="col-span-1 text-sm"
+                            >
+                              orders.groupedBy
+                            </div>
+                             
+                            <div
+                              class="col-span-1"
+                            >
+                              
+          -
+        
+                            </div>
+                          </div>
+                        </div>
+                         
+                        <div
+                          class="grid grid-cols-2 mb-8"
+                        >
+                          <div
+                            class="col-span-1 text-sm"
+                          >
+                            orders.inTotal
+                          </div>
+                           
+                          <div
+                            class="col-span-1 text-base"
+                          >
+                            <span
+                              class="text-green-700"
+                              data-testid="order_modal_total_price"
+                            >
+                              
+          0,00
+        
+                            </span>
+                             
+                            <span
+                              class="text-xs"
+                            >
+                              €
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <div
+                        class="mt-auto space-y-4"
+                      >
+                        <div
+                          class="text-xl"
+                        >
+                          orders.orderConstraints
+                        </div>
+                         
+                        <div
+                          class="mt-4 grid grid-cols-2"
+                        >
+                          <div
+                            class="col-span-1 text-sm flex items-center relative"
+                          >
+                            <!---->
+                            
+        orders.orderFrequency
+      
+                          </div>
+                           
+                          <div
+                            class="col-span-1"
+                          >
+                            <span
+                              class="text-black"
+                            >
+                              
+          -
+        
+                            </span>
+                             
+                            <span
+                              class="text-xs"
+                            >
+                              
+          
+        
+                            </span>
+                          </div>
+                        </div>
+                         
+                        <div
+                          class="grid grid-cols-2"
+                        >
+                          <div
+                            class="col-span-1 text-sm flex items-center relative"
+                          >
+                            <!---->
+                            
+        orders.fullTruckQty
+      
+                          </div>
+                           
+                          <div
+                            class="col-span-1"
+                          >
+                            <span
+                              class="text-black"
+                            >
+                              
+          -
+        
+                            </span>
+                             
+                            <span
+                              class="text-xs"
+                            >
+                              
+                            </span>
+                          </div>
+                        </div>
+                         
+                        <div
+                          class="grid grid-cols-2"
+                        >
+                          <div
+                            class="col-span-1 text-sm flex items-center relative"
+                          >
+                            <!---->
+                            
+        orders.moq
+      
+                          </div>
+                           
+                          <div
+                            class="col-span-1"
+                          >
+                            <span
+                              class="text-black"
+                            >
+                              
+          -
+        
+                            </span>
+                             
+                            <span
+                              class="text-xs"
+                            >
+                              
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="true"
+              style="width: 0px; height: 0px; overflow: hidden;"
+              tabindex="0"
+            />
+          </div>
+        </transition-stub>
+      </div>
+    </div>
+  </div>
+</body>
+`;

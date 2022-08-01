@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderModalProductsTable Renders the component 1`] = `
+<div class="flex-1 flex flex-col overflow-hidden">
+  <div class="grid pt-6 grid-cols-24 text-sm text-fl-dark-grey">
+    <div class="col-start-2 p-2 pl-0 col-span-8">
+      orders.reference
+    </div>
+    <div class="col-span-3 p-2 text-right">
+      orders.quantity
+    </div>
+    <div class="col-span-3 p-2 text-right">
+      orders.daysOfCoverage
+    </div>
+    <div class="col-span-2 p-2 text-right">
+      orders.lotSize
+    </div>
+    <div class="col-span-2 p-2 text-right">
+      orders.moq
+    </div>
+    <div class="col-span-3 p-2 pr-8 text-right">
+      orders.value
+    </div>
+  </div>
+  <div class="flex-1 overflow-auto pt-[1px] pb-1"></div>
+</div>
+`;

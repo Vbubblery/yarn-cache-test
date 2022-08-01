@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderModalProductsTableItem Renders the component 1`] = `
+<div class="grid grid-cols-24 border-collapse border-t last:border-b border-dashed border-gray-300">
+  <div class="col-span-1 flex items-center justify-end py-1">
+    <div class="v-popper mr-2 v-popper--theme-tooltip"><svg viewBox="0 0 20 20" width="20" height="20" class="text-orange-500" data-testid="order_modal_supply_alert_icon">
+        <use xlink:href="/assets/svg/sprite.svg#svg-error-warning-fill" href="/assets/svg/sprite.svg#svg-error-warning-fill"></use>
+      </svg></div>
+  </div>
+  <div class="text-black py-2 h-full col-span-8">
+    <div class="v-popper v-popper--theme-tooltip">
+      <p class="truncate">
+
+
+      </p>
+    </div>
+  </div>
+  <div class="col-span-3 text-center m-0 my-[-1px] border-gray-300 py-2 focus:z-10 focus:border-blue-500 focus-within:border-blue-500 focus-within:z-10">
+    <div class="v-popper z-5 v-popper--theme-tooltip">
+      <div class="text-right px-2"><span class="text-sm text-gray-900 mr-1"></span> <span></span></div>
+    </div>
+  </div>
+  <div class="h-full flex justify-end items-center col-span-3 text-right py-2 mr-2">
+    <div data-testid="order_modal_supply_days_cov_undefined" class="text-black inline-block text-right pr-1">
+      ∞
+    </div>
+    <!---->
+  </div>
+  <div class="h-full flex justify-end items-center col-span-2 text-right pr-2 py-2"><span class="text-sm text-gray-900 mr-1"></span> <span class="text-2xs text-gray-600"></span></div>
+  <div class="h-full flex justify-end items-center col-span-2 text-right pr-2 py-2"><span class="text-sm text-gray-900 mr-1"></span> <span class="text-2xs text-gray-600"></span></div>
+  <div class="h-full flex justify-end items-center flex-wrap col-span-3 text-right pr-8 py-2"><span class="text-black">
+      NaN
+    </span> <span class="text-xs">€</span></div>
+  <div data-testid="order_modal_open_planning_button" class="h-full col-span-1 flex justify-center items-center"><button type="button" class="btn btn--action relative h-8 flex justify-center items-center rounded-md cursor-pointer w-8 h-8"><svg viewBox="0 0 20 20" width="20" height="20" class="btn__icon">
+        <use xlink:href="/assets/svg/sprite.svg#svg-line-chart-fill" href="/assets/svg/sprite.svg#svg-line-chart-fill"></use>
+      </svg>
+      <!---->
+    </button></div>
+  <!---->
+</div>
+`;
